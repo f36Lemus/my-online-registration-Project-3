@@ -49,10 +49,10 @@
                         <div><input type="text" id="city" name="user_city"></div>
                     </div>
                     <div>
-                        <label>State</label>
+                        <label for="state">State</label>
                         <div>
-                            <select class="select-state"> 
-                                    <option selected>Choseen State</option>    
+                            <select id="state" name="user_state" class="select-state"> 
+                                    <option hidden disabled selected>Choseen State</option>    
                                     <option value="florida">Florida</option>
                                     <option value="alaska">Alaska</option>
                                     <option value="arizona">Arizona</option>
@@ -70,7 +70,7 @@
                 <hr>
                 <fieldset>   
                     <legend>Newsletter</legend>
-                       <label>Select the newsletters you would like to recieve</label>
+                       <h2>Select the newsletters you would like to recieve</h2>
                        <section>
                             <div class="chec">
                                 <input  type="checkbox" id="html_news" value="html_news" name="user_receive">
